@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.overlay
+{
+	height: 50%;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+.main-image{
+	height:300px;
+	width:300px;
+	position: absolute;
+	top:0px;
+	left:500px;
+}
+h1 {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+}
+h1.title{
+	position: relative;
+	top:25%;
+	left:30%;
+	font-size: 90px;
+}
+h1.title hr{
+	width:250px;
+	position: relative;
+	bottom: 0px;
+	right:450px;
+}
